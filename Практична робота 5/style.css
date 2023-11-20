@@ -1,12 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Times New Roman, sans-serif;
     margin: 0;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     box-sizing: border-box;
 }
 
@@ -28,22 +28,21 @@ h1{
 }
 
 .block {
-  background-color: #91bbe4;
+  background-color: #d8b5ff;
     border: 2px solid #000000;
     margin: 10px;
     padding: 15px;
     box-sizing: border-box;
 }
 
-
-@media (max-width: 992px) {
+@media (max-width: 1080px) {
     .col-4 {
         width: 50%;
     }
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .col-4 {
         width: 100%;
     }
